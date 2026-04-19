@@ -1,5 +1,9 @@
+package com.fanisa.newsreader.ui
+
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.fanisa.newsreader.data.model.Post
+import com.fanisa.newsreader.data.repository.NewsRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
